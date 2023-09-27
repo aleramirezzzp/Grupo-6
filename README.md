@@ -1,1 +1,4 @@
-# Grupo-6
+# Integrantes:
+  Alejandra Ramirez
+  Marcelo Cueto
+  Erick Elguera
