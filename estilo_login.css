@@ -27,7 +27,7 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Estilos para campos de entrada de texto */
+ 
   
   .form-group {
     display: flex;
@@ -76,7 +76,7 @@ body {
     color: #FFFFFF;
   }
   
-  /* Estilos para los enlaces */
+
   
   .forgot-password,
   .register-login-options {
@@ -94,7 +94,7 @@ body {
     text-decoration: underline;
   }
   
-  /* Estilos para los mensajes de error o información de apoyo */
+
   
   .supporting-text {
     font-size: 12px;
@@ -104,7 +104,6 @@ body {
     display: none;
   }
   
-  /* Estilos para el título "Sistema de Reserva de Libros" */
   
   .page-title {
     font-size: 36px;
