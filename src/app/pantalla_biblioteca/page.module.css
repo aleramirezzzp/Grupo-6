@@ -1,0 +1,121 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+
+    height: 100%;
+    display: flex;
+}
+
+.contenido{
+
+    width: 100%;
+    padding: 2rem;
+
+}
+
+.titulo
+{
+    width: 50%;
+    margin: 0px;
+}
+
+.containerTitulo
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo2
+{
+    margin-bottom: 2rem;
+}
+
+.linea
+{
+    background-color: silver;
+    height: 0.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.input1
+{
+    height:110px;
+    display:flex;
+    align-items:center;
+}
+
+.inputBusqueda {
+    width: 70%; /* Ancho del campo de búsqueda según tu diseño */
+    padding: 0.5rem; /* Espaciado interno para el campo */
+    border: 1px solid #7007e7; /* Borde del campo de búsqueda */
+    border-radius: 4px; /* Borde redondeado */
+    outline: none; /* Elimina el borde resaltado en foco */
+  }
+  
+  /* Estilo para el botón de búsqueda */
+  .boton {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde en el botón */
+    border-radius: 4px; /* Borde redondeado */
+    padding: 0.5rem 1rem; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilo para el contenedor de búsqueda */
+  .buscar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; /* Espaciado inferior para separar del contenido anterior */
+  }
+
+  /* Estilo para el contenedor de libros */
+.librosContainer {
+    display: flex; /* Crea una fila de elementos */
+    justify-content: space-between; /* Espaciado entre los elementos */
+  }
+  
+  /* Estilo para cada elemento de libro */
+  .libro {
+    flex: 1; /* Distribuye el espacio de manera uniforme */
+    border: 1px solid #ccc; /* Borde alrededor de cada libro */
+    padding: 1rem; /* Espaciado interno para cada libro */
+    text-align: center; /* Centra el contenido del libro */
+  }
+  
+  .libro img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+  }
+
+  /* Estilo para el botón de reserva */
+.reservarBtn {
+    display: block; /* Cambia el display a bloque para centrarlo */
+    margin: 0 auto; /* Centra horizontalmente el botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde en el botón */
+    border-radius: 4px; /* Borde redondeado */
+    padding: 0.5rem 1rem; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilo para los círculos */
+.circulo {
+    width: 30px; /* Ancho del círculo */
+    height: 30px; /* Alto del círculo */
+    background-color: #007bff; /* Color de fondo del círculo */
+    color: white; /* Color del texto del círculo */
+    border-radius: 50%; /* Borde redondeado para crear un círculo */
+    text-align: center; /* Centra el texto verticalmente */
+    line-height: 30px; /* Centra el texto horizontalmente */
+    font-weight: bold; /* Texto en negrita */
+    margin-right: 10px; /* Espacio entre el círculo y el título */
+  }
+  
