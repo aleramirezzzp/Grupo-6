@@ -88,3 +88,13 @@
   font-weight: 500;
   font-size: 1.4rem;
 }
+
+.profile-image {
+  width: 279px;
+  height: 253px;
+  top: 254px;
+  left: 187px;
+  position: absolute;
+}
+
+
