@@ -106,3 +106,11 @@
 .cuenta-btn.active {
   background-color: #79747e;
 }
+
+.profile-image {
+    width: 279px;
+    height: 253px;
+    top: 254px;
+    left: 187px;
+    position: absolute;
+}
