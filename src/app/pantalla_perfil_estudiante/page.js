@@ -82,7 +82,7 @@ const pantallaPerfil = () =>{
                 {leftBarContent}
                 <div className={styles.contenido}>
                     <div className={styles.containerTitulo}>
-                        <h1 className={styles.titulo}>Mi Perfil gaaa</h1>
+                        <h1 className={styles.titulo}>Mi Perfil</h1>
                         
                     </div>
                     <div className={styles.linea}></div>
