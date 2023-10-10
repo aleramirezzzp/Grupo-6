@@ -1,45 +1,46 @@
-.container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Arial', sans-serif;
+.container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.main{
-
-    height: 100%;
-    display: flex;
+.main {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
 }
 
-.contenido{
-    
-    width: 100%;
+.contenido {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
 }
 
-.sectionUltimasReservas{
-    background-color: #e5e5f7;
-    padding: 30px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 50px;
+.linea {
+  background-color: silver;
+  height: 0.2rem;
+  padding: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.sectionLosMasPedidos{
-    background-color: #e5e5f7;
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-left: 50px;
+.sectionUltimasReservas,
+.sectionLosMasPedidos {
+  margin-top: 100px;
 }
 
 .booksContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Espacio horizontal entre los libros */
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  .book {
-    flex: 0 1 calc(50% - 20px); /* Divide el contenedor en 2 columnas con margen */
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+.book {
+  flex-basis: calc(50% - 20px);
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
