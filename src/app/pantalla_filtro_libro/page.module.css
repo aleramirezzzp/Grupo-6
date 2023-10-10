@@ -1,121 +1,98 @@
-.container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.main{
-
-    height: 100%;
-    display: flex;
+.main {
+  height: 100%;
+  display: flex;
 }
 
-.contenido{
-
-    width: 100%;
-    padding: 2rem;
-
+.contenido {
+  color: #6750A4;
+  flex: 1;
+  padding: 20px;
+  background-color: #fef7ff;
+  border-radius: 0.4rem;
 }
 
-.titulo
-{
-    width: 50%;
-    margin: 0px;
+.titulo {
+  color: black;
+  width: 50%;
+  margin: 0px;
 }
 
-.containerTitulo
-{
-    display: flex;
-    justify-content: space-between;
+.containerTitulo {
+  display: flex;
+  justify-content: space-between;
 }
 
-.titulo2
-{
-    margin-bottom: 2rem;
+.titulo2 {
+  margin-bottom: 2rem;
 }
 
-.linea
-{
-    background-color: silver;
-    height: 0.2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem
+.linea {
+  background-color: silver;
+  height: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.input1
-{
-    height:110px;
-    display:flex;
-    align-items:center;
+.buscar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
 }
 
 .inputBusqueda {
-    width: 70%; /* Ancho del campo de búsqueda según tu diseño */
-    padding: 0.5rem; /* Espaciado interno para el campo */
-    border: 1px solid #7007e7; /* Borde del campo de búsqueda */
-    border-radius: 4px; /* Borde redondeado */
-    outline: none; /* Elimina el borde resaltado en foco */
-  }
-  
-  /* Estilo para el botón de búsqueda */
-  .boton {
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Sin borde en el botón */
-    border-radius: 4px; /* Borde redondeado */
-    padding: 0.5rem 1rem; /* Espaciado interno del botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  }
-  
-  /* Estilo para el contenedor de búsqueda */
-  .buscar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem; /* Espaciado inferior para separar del contenido anterior */
-  }
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #6750A4;
+  padding: 10px;
+  border: 2px solid #6750A4;
+}
 
-  /* Estilo para el contenedor de libros */
-.librosContainer {
-    display: flex; /* Crea una fila de elementos */
-    justify-content: space-between; /* Espaciado entre los elementos */
-  }
-  
-  /* Estilo para cada elemento de libro */
-  .libro {
-    flex: 1; /* Distribuye el espacio de manera uniforme */
-    border: 1px solid #ccc; /* Borde alrededor de cada libro */
-    padding: 1rem; /* Espaciado interno para cada libro */
-    text-align: center; /* Centra el contenido del libro */
-  }
-  
-  .libro img {
-    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
-  }
+.boton {
+  background-color: #6750a4;
+  color: white;
+  border: none;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
 
-  /* Estilo para el botón de reserva */
-.reservarBtn {
-    display: block; /* Cambia el display a bloque para centrarlo */
-    margin: 0 auto; /* Centra horizontalmente el botón */
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Sin borde en el botón */
-    border-radius: 4px; /* Borde redondeado */
-    padding: 0.5rem 1rem; /* Espaciado interno del botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  }
-  
-  /* Estilo para los círculos */
-.circulo {
-    width: 30px; /* Ancho del círculo */
-    height: 30px; /* Alto del círculo */
-    background-color: #007bff; /* Color de fondo del círculo */
-    color: white; /* Color del texto del círculo */
-    border-radius: 50%; /* Borde redondeado para crear un círculo */
-    text-align: center; /* Centra el texto verticalmente */
-    line-height: 30px; /* Centra el texto horizontalmente */
-    font-weight: bold; /* Texto en negrita */
-    margin-right: 10px; /* Espacio entre el círculo y el título */
-  }
-  
+.filters {
+  margin-top: 3px;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.filters input[type="checkbox"] {
+  display: none;
+}
+
+.filters label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFFFFF;
+  border: 3px solid #6750A4;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.filters input[type="checkbox"]:checked + label::before {
+  content: "✔";
+  color: #6750A4;
+}
