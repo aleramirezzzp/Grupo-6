@@ -27,7 +27,8 @@ const pantallaPDocente = () => {
                 <div className={styles.contenido}>
 
                     <h4>Bienvenido Alumno :v</h4>
-
+  
+                    <div className={styles.linea}></div>
                     <div className={styles.sectionUltimasReservas}>
 
                         <h4>Ultimas reservas</h4>
