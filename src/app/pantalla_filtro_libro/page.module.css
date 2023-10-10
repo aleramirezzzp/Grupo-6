@@ -77,22 +77,8 @@
   cursor: pointer;
 }
 
-.filters input[type="checkbox"] {
-  display: none;
-}
-
-.filters label::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background-color: #FFFFFF;
-  border: 3px solid #6750A4;
-  border-radius: 2px;
-  margin-right: 5px;
-}
-
 .filters input[type="checkbox"]:checked + label::before {
   content: "✔";
   color: #6750A4;
 }
+
