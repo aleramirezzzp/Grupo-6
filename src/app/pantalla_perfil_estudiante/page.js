@@ -86,8 +86,13 @@ const pantallaPerfil = () =>{
                         
                     </div>
                     <div className={styles.linea}></div>
+                    <div>
+                    <img src="/hombre.jpg" alt="imagen de docente" className={styles['profile-image']}/>
+
+                    </div>
+
                     <div className={styles.selector}>
-                    <ButtonGroup className="mb-2">
+                    <ButtonGroup className={styles['guardar']}>
                         <Button onClick={swapContenidoDU}>Datos Personales</Button>
                         <Button onClick={swapContenidoU}>Cuenta</Button>
                     </ButtonGroup>                
