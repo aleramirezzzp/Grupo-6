@@ -1,95 +1,94 @@
-/*
-CSS de page.js
-*/
-
 .container {
-  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_box {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+  color: #6750A4;
+}
+
+.form_input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border: 2px solid #6750A4;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+h1.titulo {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.button-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-
+  gap: 24px;
 }
 
-.parrafo1{
-  margin-left: 0;
-}
-
-.form_input{
-  display: block;
-  margin-bottom: 2rem;
-  padding: .5rem 2rem;
-  border-radius: 5px;
-  border: 0;
-  outline: solid 2px rebeccapurple;
-}
-
-.form_label{
-  position: absolute;
-  top: 0;
-  background: white;
-  margin-left: 10px;
-}
-
-.form_box{
-  position: relative;
-  padding: 0.8rem;
-}
-
-.titulo{
-  margin-bottom: 50px;
-  font-size: 25px;
-}
-
-.btn{
-
-  width: 50%;
-  display: flex;
-  
-}
-
-.a{
-  margin: 0 0 0 auto;
-}
-
-.registrousuario{
-  background-color: white;
+button.registrousuario,
+button.ingresar {
+  width: 150px;
+  height: 40px;
+  background: #E8DEF8;
   border: none;
-  padding: 5px 10px;
-  color: rebeccapurple;
+  border-radius: 15px;
+  color: #1D192B;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.salir:hover{
-  background-color: #E8DEF8;
-  border-radius: 50px;
-  color: rebeccapurple;
+button.registrousuario {
+  color: #6750A4;
+  background: none;
+  border-radius: 15px;
 }
 
-
-.ingresar{
-  border-radius: 50px;
-  padding: 5px 10px;
-  background-color: #E8DEF8;
-  border: none;
-  color: rebeccapurple;
-  margin-right: 80px;
+button.registrousuario:hover,
+button.ingresar:hover {
+  background: #6750A4;
+  color: #FFFFFF;
 }
 
-.ingresar:hover{
-  border-radius: 50px;
-  padding: 5px 10px;
-  background-color: white;
-  color: rebeccapurple;
+.parrafo1 {
+  text-align: center;
+  margin-top: 10px;
 }
 
+.parrafo {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6750A4;
+}
 
-.lnk{
+.lnk {
   text-decoration: none;
-  color:rebeccapurple;
-  text-decoration: underline;
+  color: #6750A4;
+  font-weight: 750;
 }
 
-.lnk:hover{
-  color: black;
+.lnk:hover {
+  text-decoration: underline;
+  color: #6750A4;
 }
