@@ -27,6 +27,8 @@ const pantallaPDocente = () => {
                 <div className={styles.contenido}>
 
                     <h4>Bienvenido Profesor</h4>
+                    <div className={styles.linea}></div>
+
 
                     <div className={styles.sectionUltimasReservas}>
 
@@ -46,6 +48,9 @@ const pantallaPDocente = () => {
                         </div>
                     </div>
                     <div className={styles.sectionLosMasPedidos}>
+                        <div className={styles.verTodoButton}>
+                            <button>Ver todo</button>
+                        </div>
                         <h4>Los mas pedidos</h4>
                         <div className={styles.booksContainer}>
                             <div className={styles.book}>
