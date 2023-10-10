@@ -83,10 +83,12 @@ const pantallaPerfil = () =>{
                 <div className={styles.contenido}>
                     <div className={styles.containerTitulo}>
                         <h1 className={styles.titulo}>Mi Perfil</h1>
-                        
                     </div>
                     <div className={styles.linea}></div>
-                    <div className={styles.selector}>
+                    <div>
+                    <img src="/mujer.jpg" alt="imagen de docente" className={styles['profile-image']}/>
+                    </div>
+                    <div className={styles.guardar}>
                     <ButtonGroup className="mb-2">
                         <Button onClick={swapContenidoDU}>Datos Personales</Button>
                         <Button onClick={swapContenidoU}>Cuenta</Button>
@@ -104,6 +106,10 @@ const pantallaPerfil = () =>{
         </div>
 
     )
+
+}
+<Button>Guardar</Button>
+export default pantallaPerfil;
 
 }
 <Button>Guardar</Button>
