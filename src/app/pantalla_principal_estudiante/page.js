@@ -26,7 +26,7 @@ const pantallaPDocente = () => {
                 {leftBarContent}
                 <div className={styles.contenido}>
 
-                    <h4>Bienvenido Alumno :v</h4>
+                    <h4>Bienvenido Alumno</h4>
   
                     <div className={styles.linea}></div>
                     <div className={styles.sectionUltimasReservas}>
