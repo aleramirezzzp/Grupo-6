@@ -41,11 +41,11 @@ export default function Home() {
       
         <div className={styles.form_box}>
           <input type='text' className={styles.form_input} onChange={e => setUsuario(e.target.value)}></input>
-          <label for='' className={styles.form_label}>Usuario</label>
+          <label for='' className={styles.form_label}>Usuario o Correo</label>
         </div>
         <div className={styles.form_box}>
           <input type='password' className={styles.form_input} onChange={e => setPassword(e.target.value)}></input>
-          <label for='' className={styles.form_label}>Password</label>
+          <label for='' className={styles.form_label}>Contraseña</label>
         </div>
 
       </form>
