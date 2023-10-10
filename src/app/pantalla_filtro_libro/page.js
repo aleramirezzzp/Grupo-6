@@ -1,44 +1,28 @@
 'use client'
-import Link from 'next/link'
+
 import styles from './page.module.css'
 import TopBar from '../../components/TopBar/TopBar.jsx'
-import LeftBar from '../../components/LeftBar/LeftBar.jsx' // Import LeftBar
+import LeftBar from '../../components/LeftBar/LeftBar.jsx'
 import React, { useState } from "react"
-import Button from "react-bootstrap/Button"
-import Input from '@/components/Input/Input'
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import { useRouter } from 'next/navigation'
+
 
 const pantallaPerfil = () => {
 
     const [topBarIsVisible, setTopBarIsVisible] = useState(true);
     const [contendoIsVisible, setContenidoIsVisible] = useState("DU");
-
+    const [selectedFilters, setSelectedFilters] = useState([]); 
     function swapTopBar() {
         setTopBarIsVisible(!topBarIsVisible)
-    }
-
-    function swapContenidoDU() {
-        setContenidoIsVisible("DU")
-    }
-
-    function swapContenidoU() {
-        setContenidoIsVisible("U")
-    }
-
-    function swapContenidoP() {
-        setContenidoIsVisible("P")
     }
 
     let leftBarContent
 
     if (topBarIsVisible) {
-        leftBarContent = <LeftBar /> // Include LeftBar component
+        leftBarContent = <LeftBar /> 
     }
 
     const [searchQuery, setSearchQuery] = useState("");
     const [bookType, setBookType] = useState("");
-    const [selectedFilters, setSelectedFilters] = useState([]);
 
     const handleFilterChange = (event) => {
         const { value, checked } = event.target;
@@ -52,7 +36,7 @@ const pantallaPerfil = () => {
     const handleClear = () => {
         setSearchQuery("");
         setBookType("");
-        setSelectedFilters([]);
+        setSelectedFilters([]); 
     };
 
     return (
